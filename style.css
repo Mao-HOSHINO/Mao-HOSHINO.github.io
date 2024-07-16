@@ -4,3 +4,13 @@ p  {
 h3 {
    margin-left: 15pt;
    }
+ol li{
+   padding-top: 4pt;
+   line-height: 140%;
+   padding-bottom: 4pt;
+   }
+ul li{
+   padding-top: 4pt;
+   line-height: 140%;
+   padding-bottom: 4pt;
+   }
