@@ -1,3 +1,129 @@
-h3 {
-   margin-left: 15pt;
-   }
+/* ===== Minimal serif theme, no borders ===== */
+
+:root{
+  --bg: #e0e8ea;
+  --fg: #111111;
+  --muted: #555555;
+  --link: #2a6f7c;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg: #0b0b0b;
+    --fg: #e6e6e6;
+    --muted: #a1a1a1;
+    --link: #93cdcd;
+  }
+}
+
+/* ===== Base font setup ===== */
+html, body {
+  font-family:
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Helvetica Neue",
+    "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+    "Yu Gothic", "Meiryo", sans-serif;
+  line-height: 1.75;
+  font-size: 16px;
+}
+
+*{ box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
+html, body{
+  margin:0; padding:0;
+  background: var(--bg); color: var(--fg);
+  line-height: 1.7; font-size: 16px;
+}
+a{ color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+a:hover{ text-decoration-thickness: 2px; }
+.container{ max-width: 960px; margin: 0 auto; padding: 16px; }
+
+.header{ position: sticky; top: 0; z-index: 10; background: var(--bg); }
+.header__inner{ display:flex; align-items:center; justify-content: space-between; gap: 12px; padding: 10px 16px; }
+.brand{ display:flex; gap:12px; align-items:center; }
+.brand img{ width: 44px; height:44px; border-radius: 8px; display:block; object-fit: contain; }
+.brand h1{ font-size: clamp(1.05rem, 3.5vw, 1.35rem); margin: 0; letter-spacing:.2px; font-weight: 600; }
+#scrollTop:hover { text-decoration: none; cursor: pointer; }
+.brand h1 a{ text-decoration: none; }
+.brand h1 a:hover{ text-decoration: underline; }
+.smallmuted{ color: var(--muted); font-weight: 600; font-size: clamp(1.00rem, 3.5vw, 1.30rem); }
+
+.hero{ padding: 18px 16px 8px; }
+.hero__grid{ display:flex; flex-direction: column; align-items:center; justify-content:center; gap: 12px; text-align:center; }
+.hero__grid img{
+  width: clamp(270px, 45vw, 390px);
+  height: auto;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  aspect-ratio: auto;
+}
+.hero__name{ font-weight: 700; margin:.2rem 0 .1rem; font-size: clamp(1.5rem, 3.5vw, 1.75rem); }
+.hero__name a{ text-decoration: none; }
+.hero__name a:hover{ text-decoration: underline; }
+.hero__affil{ margin:.15rem 0 .6rem; color: var(--fg); font-size: 1.0rem; }
+.hero__nav{ display:flex; flex-wrap:wrap; gap:14px; justify-content:center; }
+.hero__nav a{ text-decoration: none; }
+.hero__nav a:hover{ text-decoration: underline; }
+
+section{ margin-top: 28px; }
+h2{ margin: 0 0 8px; font-size: clamp(1.2rem, 3vw, 1.5rem); }
+h3{ margin: 14px 0 6px; font-size: 1.05rem; color: var(--fg); }
+p{ margin: .4rem 0; }
+.list{ padding-left: 1.25rem; margin: .4rem 0; }
+.list li + li{ margin-top: .25rem; }
+.title{ font-weight: 400; }
+
+details.year{ padding: 6px 2px; }
+details.year + details.year{ margin-top: 2px; }
+summary{ cursor: pointer; list-style: none; display:flex; align-items:center; justify-content: space-between; gap: 10px; padding: 6px 0; }
+/* summary .arrow{ transition: transform .2s ease; } */
+details[open] summary .arrow{ transform: rotate(90deg); }
+.arrow{ font-size: 0.8rem; }
+.summary-title{ font-weight: 700; }
+.talks{ padding-left: 1.25rem; }
+.talks li{ margin: .25rem 0; }
+
+/* Year index and actions */
+.talks-toolbar{ display:flex; align-items:center; justify-content: space-between; gap: 12px; margin: 6px 0 8px; flex-wrap: wrap; }
+.year-index{ display:flex; gap: 10px; flex-wrap: wrap; }
+.year-index a{ text-decoration: none; }
+.year-index a:hover{ text-decoration: underline; }
+.actions{ margin-top: 0; }
+
+footer{ margin: 36px 0 24px; color: var(--muted); font-size: .95rem; }
+
+@media (max-width: 560px){
+  .hero__grid{ gap: 10px; }
+  .brand h1{ font-size: 1rem; }
+  .container{ padding: 12px; }
+}
+
+a:focus-visible, button:focus-visible, summary:focus-visible{ outline: 2px solid var(--link); outline-offset: 3px; border-radius: 6px; }
+.actions{ display:flex; flex-wrap: wrap; gap: 8px; }
+button, .btn{ border-radius: 999px; background: transparent; padding: .45rem .7rem; font: inherit; color: inherit; cursor: pointer; border:none; }
+button:hover, .btn:hover{ background: rgba(0,0,0,.04); }
+@media (prefers-color-scheme: dark){
+  button:hover, .btn:hover{ background: rgba(255,255,255,.06); }
+}
+
+summary{justify-content:flex-start;gap:6px;}
+summary .arrow{order:-1;}
+
+/* 1) ヘッダー高（必要に応じて微調整） */
+:root { --header-h: 40px; }           /* デスクトップ想定 */
+@media (max-width: 560px){
+  :root { --header-h: 45px; }         /* モバイル想定 */
+}
+
+/* 2) アンカーで飛ぶ先の余白を確保（セクション見出しが隠れない） */
+section[id] { 
+  scroll-margin-top: calc(var(--header-h) + 0px);
+}
+
+/* 3) 古い環境向けの保険（:target擬似要素でずらす） */
+section:target::before{
+  content: "";
+  display: block;
+  height: calc(var(--header-h) + 0px);
+  margin-top: calc(-1 * (var(--header-h) + 0px));
+}

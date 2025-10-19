@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>星野 真生 — ホーム</title>
+  <meta name="description" content="星野真生（Mao Hoshino）の個人サイト。研究分野：量子群・表現論・作用素環論。" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="alternate" href="/index.html" hreflang="en" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand">
+        <h1><span id="scrollTop">星野 真生</span> <span class="smallmuted">　
+<a href="index.html" aria-label="Switch to English">Mao Hoshino</a></span></h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="container hero">
+    <div class="hero__grid">
+      <img src="selfie.jpg" alt="星野真生の顔写真" width="260" height="260">
+      <div class="hero__name">星野 真生</div>
+      <div class="hero__affil">学振特別研究員PD<br>東京大学 大学院数理科学研究科</div>
+      <div class="hero__affil">Email: mhoshino (a) ms.u-tokyo.ac.jp</div>
+
+      <nav class="hero__nav" aria-label="サイト内ナビゲーション">
+        <a href="#about">自己紹介</a>
+        <a href="#papers">論文</a>
+        <a href="#talks">講演</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container">
+    <section id="about">
+      <h2>自己紹介</h2>
+      <p>数学を研究しています．特に量子群，表現論，作用素環論に興味を持っています．現在の身分は東京大学大学院数理科学研究科の学振特別研究員PDで，受入教員は<a href="https://www.ms.u-tokyo.ac.jp/~yasuyuki/index.html">河東泰之</a>教授です．</p>
+    </section>
+
+    <section id="papers">
+      <h2>論文</h2>
+      <h3>プレプリント</h3>
+      <ul class="list">
+        <li><em class="title">Semisimple module categories with fusion rules of the compact full flag manifold type</em>, arXiv: <a href="https://arxiv.org/abs/2510.12057" target="_blank" rel="noopener">2510.12057</a>.</li>
+        <li><em class="title">Finite index quantum subgroups of discrete quantum groups</em>, arXiv: <a href="https://arxiv.org/abs/2503.14044" target="_blank" rel="noopener">2503.14044</a>.</li>
+      </ul>
+
+      <h3>査読済み論文</h3>
+      <ol class="list">
+        <li><em class="title">Polynomial families of quantum semisimple coadjoint orbits via deformed quantum enveloping algebras</em>, <span>Communications in Mathematical Physics</span> <strong>406</strong> (2025), no.&nbsp;8. DOI: <a href="https://doi.org/10.1007/s00220-024-05172-7" target="_blank" rel="noopener">10.1007/s00220-024-05172-7</a>, arXiv: <a href="https://arxiv.org/abs/2407.09765" target="_blank" rel="noopener">2407.09765</a>.</li>
+        <li>(with <a href="https://sites.google.com/view/kankitamura" target="_blank" rel="noopener">K. Kitamura</a>) <em class="title">A note on quantum subgroups of free quantum groups</em>, <span>C. R. Math. Acad. Sci. Paris</span> <strong>362</strong> (2024), 1327–1330. DOI: <a href="https://doi.org/10.5802/crmath.641" target="_blank" rel="noopener">10.5802/crmath.641</a>, arXiv: <a href="https://arxiv.org/abs/2403.11151" target="_blank" rel="noopener">2403.11151</a>.</li>
+        <li><em class="title">The automatic imprimitivity for G<sub>q</sub></em>, <span>Journal of Functional Analysis</span> <strong>286</strong> (2024), no.&nbsp;12, 110413. DOI: <a href="https://doi.org/10.1016/j.jfa.2024.110413" target="_blank" rel="noopener">10.1016/j.jfa.2024.110413</a>.</li>
+      </ol>
+    </section>
+
+    <section id="talks">
+      <h2>講演</h2>
+      <details class="year" id="y2025" open>
+        <summary><span class="summary-title">2025</span> <span class="arrow">▶</span></summary>
+        <ul class="talks list">
+        <li>Semisimple module categories with fusion rules of the compact full flag manifold type, 京都作用素環セミナー, 京都大学, 2025年10月.</li>
+        <li>A tensor categorical perspective of quantum group actions, 作用素環セミナー, 東京大学, 2025年7月.</li>
+        <li>A classification of equivariant quantum full flag manifolds, Algebraic Lie Theory and Representation Theory, 石川県青少年総合研修センター, 2025年5月.</li>
+        <li>A classification of equivariant quantum full flag manifolds, 量子解析セミナー, 名古屋大学, 2025年5月.</li>
+        <li>Towards a classification of quantum flag manifolds, 第21回数学総合若手研究集会, 北海道大学, 2025年3月.</li>
+        <li>A categorical perspective on non-formal equivariant quantization, CRESTセミナー, オンライン, 2025年2月.</li>
+        <li>Deformed QEAs and their applications to quantum flag manifolds, 作用素環論と関係する群論とその周辺, 京都大学, 2025年1月.</li>
+        </ul>
+      </details>
+
+      <details class="year" id="y2024">
+        <summary><span class="summary-title">2024</span> <span class="arrow">▶</span></summary>
+        <ul class="talks list">
+        <li>Deformed quantum enveloping algebras and its application to quantized semisimple coadjoint orbits, Seminar on Quantum groups, Hopf algebras and monoidal categories, Vriji Universiteit Brussel, ベルギー, 2024年11月.</li>
+        <li>Polynomial families of quantum semisimple coadjoint orbits via deformed QEAs, 量子解析セミナー, 名古屋大学, 2024年7月.</li>
+        <li>Polynomial families of quantum flag manifolds via deformed quantum enveloping algebras, 京都作用素環セミナー, 京都大学, 2024年7月.</li>
+        <li>Polynomial families of quantum flag manifolds via deformed quantum enveloping algebras, 作用素環セミナー, 東京大学, 2024年7月.</li>
+        <li>A construction of quantum flag manifolds via deformed quantized enveloping algebras, 第20回数学総合若手研究集会, 北海道大学, 2024年3月.</li>
+        </ul>
+      </details>
+
+      <details class="year" id="y2023">
+        <summary><span class="summary-title">2023</span> <span class="arrow">▶</span></summary>
+        <ul class="talks list">
+        <li>Finite index quantum subgroups of DQGs, 作用素環セミナー, 東京大学,, 2023年12月.</li>
+        <li>Finite index quantum subgroups of DQGs, 関数解析研究会, 京都工芸繊維大学, 2023年9月.</li>
+        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, 京都作用素環セミナー, 京都大学, 2023年4月.</li>
+        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, 量子解析セミナー, 名古屋大学, 2023年3月.</li>
+        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Japan-Netherlands Joint Seminar: Index Theory and Operator Algebras in Topological Physics, オンライン, 2023年3月.</li>
+        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Quantum Groups Seminar, オンライン, 2023年3月.</li>
+        </ul>
+      </details>
+
+      <details class="year" id="y2022">
+        <summary><span class="summary-title">2022</span> <span class="arrow">▶</span></summary>
+        <ul class="talks list">
+          <li>Equivariant quantum covering spaces over quantum homogeneous spaces, 作用素論作用素環論研究集会, 大阪教育大学, 2022年12月.
+          <li>Equivariant quantum covering spaces over quantum homogeneous spaces, 作用素環セミナー, 東京大学, 2022年12月.</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="posters">
+      <h2>ポスター発表</h2>
+      <ul class="list">
+        <li>The automatic imprimitivity for G<sub>q</sub>, OAS Follow on: Operator Algebras: Subfactors and Applications, Isaac Newton Institute, イギリス, 2023年6月.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container"><p>&copy; <span id="yr"></span> Mao Hoshino.</p></footer>
+
+  <script>
+    document.getElementById("yr").textContent = new Date().getFullYear();
+    document.getElementById("scrollTop")?.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+</script>
+</body>
+</html>

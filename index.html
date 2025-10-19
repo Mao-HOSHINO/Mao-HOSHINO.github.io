@@ -1,69 +1,122 @@
 <!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link href="style.css" rel="stylesheet" />
-    <title>Mao Hoshino's  homepage</title>
-  </head>
-  <body>
-    <h1>Mao HOSHINO/星野 真生</h1>
-    <div style="text-align:left">
-      <img src="selfie.jpg" width="350" height="250">
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mao HOSHINO — Home</title>
+  <meta name="description" content="Homepage of Mao Hoshino (星野 真生), mathematician. Research interests: quantum groups, representation theory, operator algebras." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="alternate" href="/index-ja.html" hreflang="ja" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand">
+<!--        <img src="selfie.jpg" alt="Portrait of Mao Hoshino" width="44" height="44"> -->
+        <h1><span id="scrollTop">Mao HOSHINO</span> <span class="smallmuted">　<a href="index-ja.html" aria-label="日本語ページへ切替">星野 真生</a></span></h1>
+      </div>
     </div>
-    <p>Department of Mathematical Sciences<br>
-       The University of Tokyo<br>
-       3-8-1 Komaba, Tokyo, 153-8914<br>
-       Japan</p>
-    <p>Email: mhoshino (a) ms.u-tokyo.ac.jp</p>
-    <h2>About me</h2>
-    <p>I am a Ph.D. student in mathematics, supervised by Prof. <a href="https://www.ms.u-tokyo.ac.jp/~yasuyuki/index-e.html">Yasuyuki Kawahigashi<a>.<br>
-       My interest is in quantum groups, representation theory and
-       operator algebras.
-    </p>
-    <h2>Papers</h2>
-<!-- -->
+  </header>
+
+  <div class="container hero">
+    <div class="hero__grid">
+      <img src="selfie.jpg" alt="Portrait of Mao Hoshino" width="50" height="500">
+      <div class="hero__name">Mao HOSHINO</div>
+      <div class="hero__affil">JSPS Postdoctral Researcher<br>Department of Mathematical Sciences, The University of Tokyo</div>
+      <div class="hero__affil">Email: mhoshino (a) ms.u-tokyo.ac.jp</div>
+
+      <nav class="hero__nav" aria-label="Site">
+        <a href="#about">About</a>
+        <a href="#papers">Papers</a>
+        <a href="#talks">Talks</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a postdoctoral researcher in mathematics, hosted by Prof. <a href="https://www.ms.u-tokyo.ac.jp/~yasuyuki/index-e.html">Yasuyuki Kawahigashi</a>. My interests lie in quantum groups, representation theory and operator algebras.
+      </p>
+    </section>
+
+    <section id="papers">
+      <h2>Papers</h2>
       <h3>Preprints</h3>
-      <ul>
-        <li> Finite index quantum subgroups of discrete quantum groups, arXiv:<a href="https://arxiv.org/abs/2503.14044">2503.14044</a>.
+      <ul class="list">
+        <li><em class="title">Semisimple module categories with fusion rules of the compact full flag manifold type</em>, arXiv: <a href="https://arxiv.org/abs/2510.12057" target="_blank" rel="noopener">2510.12057</a>.</li>
+        <li><em class="title">Finite index quantum subgroups of discrete quantum groups</em>, arXiv: <a href="https://arxiv.org/abs/2503.14044" target="_blank" rel="noopener">2503.14044</a>.</li>
       </ul>
-<!-- -->
+
       <h3>Accepted</h3>
-      <ol>
-        <li> Polynomial families of quantum semisimple coadjoint orbits via deformed quantum enveloping algebras, Comm. Math. Phys. <strong>406</strong> (2025), no. 8. <br>DOI:<a href="https://doi.org/10.1007/s00220-024-05172-7">10.1007/s00220-024-05172-7</a>, arXiv:<a href="https://arxiv.org/abs/2407.09765">2407.09765</a>.
-        </li>
-        <li>(with <a href="https://sites.google.com/view/kankitamura">K. Kitamura</a>) A note on quantum subgroups of free quantum groups, C. R. Math. Acad. Sci. Paris. <strong>362</strong> (2024), 1327-1330.<br>DOI:<a href="https://doi.org/10.5802/crmath.641">10.5802/crmath.641</a>, arXiv:<a href="https://arxiv.org/abs/2403.11151">2403.11151</a>.
-        </li>
-        <li>The automatic imprimitivity for G_q,
-            J. Funct. Anal. <strong>286</strong> (2024), no. 12, 110413.<br>
-            DOI:<a href="https://doi.org/10.1016/j.jfa.2024.110413">10.1016/j.jfa.2024.110413</a>.
-        </li>
+      <ol class="list">
+        <li><em class="title">Polynomial families of quantum semisimple coadjoint orbits via deformed quantum enveloping algebras</em>, <span>Communications in Mathematical Physics</span> <strong>406</strong> (2025), no.&nbsp;8. DOI: <a href="https://doi.org/10.1007/s00220-024-05172-7" target="_blank" rel="noopener">10.1007/s00220-024-05172-7</a>, arXiv: <a href="https://arxiv.org/abs/2407.09765" target="_blank" rel="noopener">2407.09765</a>.</li>
+        <li>(with <a href="https://sites.google.com/view/kankitamura" target="_blank" rel="noopener">K. Kitamura</a>) <em class="title">A note on quantum subgroups of free quantum groups</em>, <span>C. R. Math. Acad. Sci. Paris</span> <strong>362</strong> (2024), 1327–1330. DOI: <a href="https://doi.org/10.5802/crmath.641" target="_blank" rel="noopener">10.5802/crmath.641</a>, arXiv: <a href="https://arxiv.org/abs/2403.11151" target="_blank" rel="noopener">2403.11151</a>.</li>
+        <li><em class="title">The automatic imprimitivity for G<sub>q</sub></em>, <span>Journal of Functional Analysis</span> <strong>286</strong> (2024), no.&nbsp;12, 110413. DOI: <a href="https://doi.org/10.1016/j.jfa.2024.110413" target="_blank" rel="noopener">10.1016/j.jfa.2024.110413</a>.</li>
       </ol>
-    <h2>Talks</h2>
-      <ul>
-        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Operator Algebra Seminar, The University of Tokyo, Japan, December 2022.</li>
-        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Annual Meeting on Operator Theory/Operator Algebras, Osaka Kyoiku University, Japan, December 2022.
-        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Quantum Groups Seminar, online, March 2023.</li>
-        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Japan-Netherlands Joint Seminar: Index Theory and Operator Algebras in Topological Physics, Online, March 2023.
-        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Quantum Analysis Seminar, Nagoya University, Japan, March 2023.</li>
-        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Kyoto Operator Algebra Seminar, Kyoto University, Japan, April 2023.</li>
-        <li>Finite index quantum subgroups of DQGs, Junior Meetings on Functional Analysis, Kyoto Institute of Technology, Kyoto, Japan, September 2023.</li>
-        <li>Finite index quantum subgroups of DQGs, Operator Algebra Seminar, The University of Tokyo, Japan, December 2023.</li>
-        <li>A construction of quantum flag manifolds via deformed quantized enveloping algebras, The 20th Mathematics Conference for Young Researchers, Hokkaido University, Japan, March 2024.</li>
-        <li>Polynomial families of quantum flag manifolds via deformed quantum enveloping algebras, The University of Tokyo, Japan, June 2024.</li>
-        <li>Polynomial families of quantum flag manifolds via deformed quantum enveloping algebras, Kyoto University, Japan, July 2024.</li>
-        <li>Polynomial families of quantum semisimple coadjoint orbits via deformed QEAs, Nagoya University, Japan, July 2024.</li>
-        <li>Deformed quantum enveloping algebras and its application to quantized semisimple coadjoint orbits, Seminar on Quantum groups, Hopf algebras and monoidal categories, Vriji Universiteit Brussel, Belgium, November 2024.</li>
-        <li>Deformed QEAs and their applications to quantum flag manifolds, Group Theory Around Operator Algebras, Kyoto University, Japan, January, 2025.</li>
-        <li>A categorical perspective on non-formal equivariant quantization, CREST seminar, online, February, 2025.</li>
-        <li>Towards a classification of quantum flag manifolds, The 21th Mathematics Conference for Young Researchers, Hokkaido University, Japan, March 2025.</li>
-        <li>A classification of equivariant quantum full flag manifolds, Quantum Analysis Seminar, Nagoya University, Japan, May, 2025.</li>
+    </section>
+
+    <section id="talks">
+      <h2>Talks</h2>
+      <details class="year" id="y2025" open>
+        <summary><span class="summary-title">2025</span> <span class="arrow">▶</span></summary>
+        <ul class="talks list">
+        <li>Semisimple module categories with fusion rules of the compact full flag manifold type, Kyoto Operator Algebra Seminar, Kyoto University, Japan, October, 2025.</li>
+        <li>A tensor categorical perspective of quantum group actions, Operator Algebra Seminar, The University of Tokyo, Japan, July, 2025.</li>
         <li>A classification of equivariant quantum full flag manifolds, Algebraic Lie Theory and Representation Theory, Ishikawa, Japan, May, 2025.</li>
-        <li>A tensor categorical perspective of quantum group actions, Operator Algebra Seminar, The University of Tokyo, Japan, July, 2025.
+        <li>A classification of equivariant quantum full flag manifolds, Quantum Analysis Seminar, Nagoya University, Japan, May, 2025.</li>
+        <li>Towards a classification of quantum flag manifolds, The 21th Mathematics Conference for Young Researchers, Hokkaido University, Japan, March 2025.</li>
+        <li>A categorical perspective on non-formal equivariant quantization, CREST seminar, online, February, 2025.</li>
+        <li>Deformed QEAs and their applications to quantum flag manifolds, Group Theory Around Operator Algebras, Kyoto University, Japan, January, 2025.</li>
+        </ul>
+      </details>
+
+      <details class="year" id="y2024">
+        <summary><span class="summary-title">2024</span> <span class="arrow">▶</span></summary>
+        <ul class="talks list">
+        <li>Deformed quantum enveloping algebras and its application to quantized semisimple coadjoint orbits, Seminar on Quantum groups, Hopf algebras and monoidal categories, Vriji Universiteit Brussel, Belgium, November 2024.</li>
+        <li>Polynomial families of quantum semisimple coadjoint orbits via deformed QEAs, Nagoya University, Japan, July 2024.</li>
+        <li>Polynomial families of quantum flag manifolds via deformed quantum enveloping algebras, Kyoto University, Japan, July 2024.</li>
+        <li>Polynomial families of quantum flag manifolds via deformed quantum enveloping algebras, The University of Tokyo, Japan, June 2024.</li>
+        <li>A construction of quantum flag manifolds via deformed quantized enveloping algebras, The 20th Mathematics Conference for Young Researchers, Hokkaido University, Japan, March 2024.</li>
+        </ul>
+      </details>
+
+      <details class="year" id="y2023">
+        <summary><span class="summary-title">2023</span> <span class="arrow">▶</span></summary>
+        <ul class="talks list">
+        <li>Finite index quantum subgroups of DQGs, Operator Algebra Seminar, The University of Tokyo, Japan, December 2023.</li>
+        <li>Finite index quantum subgroups of DQGs, Junior Meetings on Functional Analysis, Kyoto Institute of Technology, Kyoto, Japan, September 2023.</li>
+        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Kyoto Operator Algebra Seminar, Kyoto University, Japan, April 2023.</li>
+        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Quantum Analysis Seminar, Nagoya University, Japan, March 2023.</li>
+        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Japan-Netherlands Joint Seminar: Index Theory and Operator Algebras in Topological Physics, Online, March 2023.</li>
+        <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Quantum Groups Seminar, online, March 2023.</li>
+        </ul>
+      </details>
+
+      <details class="year" id="y2022">
+        <summary><span class="summary-title">2022</span> <span class="arrow">▶</span></summary>
+        <ul class="talks list">
+          <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Annual Meeting on Operator Theory/Operator Algebras, Osaka Kyoiku University, Japan, December 2022.
+          <li>Equivariant quantum covering spaces over quantum homogeneous spaces, Operator Algebra Seminar, The University of Tokyo, Japan, December 2022.</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="posters">
+      <h2>Posters</h2>
+      <ul class="list">
+        <li>The automatic imprimitivity for G<sub>q</sub>, OAS Follow on: Operator Algebras: Subfactors and Applications, Isaac Newton Institute, UK, June 2023.</li>
       </ul>
-      <h3>Poster</h3>
-      <ul>
-        <li>The automatic imprimitivity for G_q, OAS Follow on: Operator Algebras: Subfactors and Applications, Isaac Newton Institute, UK, June 2023.</li>
-      </ul>
-  </body>
+    </section>
+  </main>
+
+  <footer class="container"><p>&copy; <span id="yr"></span> Mao Hoshino.</p></footer>
+
+  <script>
+    document.getElementById("yr").textContent = new Date().getFullYear();
+    document.getElementById("scrollTop")?.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+</script>
+</body>
 </html>
