@@ -1,0 +1,28 @@
+// 共通の写真リスト（すべてのページ共通）
+const PHOTOS = [
+  {
+    src: "photos/tengu.jpg",
+    caption_en: "Mt. Nishitengudake",
+    caption_ja: "西天狗岳"
+  },
+];
+
+// ページ言語を自動判定して1枚ランダムに表示
+function showRandomPhoto() {
+  if (!PHOTOS.length) return;
+
+  // ページ言語を取得（例: <html lang="ja"> または "en"）
+  const lang = document.documentElement.lang || "en";
+
+  const pick = PHOTOS[Math.floor(Math.random() * PHOTOS.length)];
+  const img = document.getElementById("photo");
+  const cap = document.getElementById("cap");
+  if (!img) return;
+
+  img.src = pick.src;
+  img.alt = lang === "ja" ? (pick.caption_ja || "写真") : (pick.caption_en || "Photo");
+
+  if (cap) {
+    cap.textContent = lang === "ja" ? (pick.caption_ja || "") : (pick.caption_en || "");
+  }
+}

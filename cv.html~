@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Mao HOSHINO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand">
+        <h1>
+          <a href="index.html">Mao HOSHINO</a>
+          <span class="smallmuted">　<a href="index-ja.html">星野 真生</a></span>
+        </h1>
+      </div>
+    </div>
+  </header>
+  <main class="container main-narrow">
+    <section>
+      <h2>Affiliation</h2>
+        <p>
+          Graduate School of Mathematical Sciences, The University of Tokyo <br>
+          Japan Society for the Promotion of Science, PD researcher (host: Prof. <a href="https://www.ms.u-tokyo.ac.jp/~yasuyuki-e/">Yasuyuki Kawahigashi</a>）<br>
+          3-8-1 Komaba, Tokyo, 153-8914, JAPAN<br>
+          Email: mhoshino (a) ms.u-tokyo.ac.jp <br> <br>
+        </p>
+      <h2>Accademic Appointments</h2>
+        <p>
+        <table>
+          <tr><th>Oct. 2025</th><th>&mdash;</th><th>Present</th><td>&emsp; JSPS PD (host: Prof. Yasuyuki Kawahigashi)</td></tr>
+          <tr><th>Apr. 2023</th><th>&mdash;</th><th>Sep. 2025</th><td>&emsp; JSPS DC1 (host: Yasuyuki Kawahigashi)</td></tr>
+          <tr><th>Apr. 2021</th><th>&mdash;</th><th>Mar. 2023</th><td>&emsp; FoPM TAKUETSU Research Assistant</td></tr>
+        </table><br>
+        </p>
+      <h2>Education</h2>
+        <p>
+        <table>
+          <tr><th>Apr. 2023 &mdash; Sep. 2025</th><td>&emsp; <b>Doctor in Mathematical Sciences</b></td></tr>
+          <tr><th></th><td>&emsp;&emsp; Graduate School of Mathematical Sciences, The University of Tokyo, Japan</td></tr>
+          <tr><th></th><td>&emsp;&emsp; Advisor: Prof. Yasuyuki Kawahigashi
+          <tr><th></th><td>&emsp;&emsp; Title: <em>A tensor categorical aspect of quantum group actions</em></td></tr>
+          <tr></tr>
+          <tr><th>Apr. 2021 &mdash; Mar. 2023</th><td>&emsp; <b>Master in Mathematical Sciences</b></td></tr>
+          <tr><th></th><td>&emsp;&emsp; Graduate School of Mathematical Sciences, The University of Tokyo, Japan</td></tr>
+          <tr><th></th><td>&emsp;&emsp; Advisor: Prof. Yasuyuki Kawahigashi
+          <tr><th></th><td>&emsp;&emsp; Thesis: Equivariant quantum covering spaces over quantum homogeneous spaces</td></tr>
+          <tr><th>Apr. 2017 &mdash; Mar. 2021</th><td>&emsp; <b>Bachelor in Science</b></td></tr>
+          <tr><th></th><td>&emsp;&emsp; Department of Sciences, The University of Tokyo, Japan</td></tr>
+        </table><br>
+        </p>
+      <h2>Awards</h2>
+        <p>
+        <table>
+          <tr><th>Sep. 2025</th><td>&emsp; The representative of the graduates</td></tr>
+          <tr><th></th><td>&emsp;&emsp; Graduate School of Mathematical Sciences, The University of Tokyo</td></tr>
+          <tr><th>Mar. 2023</th><td>&emsp; Dean Prize for Master thesis</td></tr>
+          <tr><th></th><td>&emsp;&emsp; Graduate School of Mathematical Sciences, The University of Tokyo</td></tr>
+        </table><br>
+        </p>
+    </section>
+  </main>
+  <footer class="container"><p>&copy; <span id="yr"></span> Mao Hoshino.</p></footer>
+</body>
+</html>

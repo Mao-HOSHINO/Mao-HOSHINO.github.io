@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>履歴 — 星野 真生</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand">
+        <h1>
+          <a href="index.html">Mao HOSHINO</a>
+          <span class="smallmuted">　<a href="index-ja.html">星野 真生</a></span>
+        </h1>
+      </div>
+    </div>
+  </header>
+  <main class="container main-narrow">
+    <section>
+      <h2>所属</h2>
+        <p>
+          東京大学大学院数理科学研究科 <br>
+          日本学術振興会 特別研究員PD （受け入れ教員：<a href="https://www.ms.u-tokyo.ac.jp/~yasuyuki/">河東泰之</a>教授）<br>
+          〒173-0037 東京都目黒区駒場3-8-1 数理科学研究科棟 <br>
+          Email: mhoshino (a) ms.u-tokyo.ac.jp <br> <br>
+        </p>
+      <h2>職歴</h2>
+        <p>
+        <table>
+          <tr><th>2025年10月</th><th>&mdash;</th><th>現在</th><td>&emsp; 日本学術振興会特別研究員 PD （受け入れ教員：河東泰之教授）</td></tr>
+          <tr><th>2023年 4月</th><th>&mdash;</th><th>2025年 9月</th><td>&emsp; 日本学術振興会特別研究員 DC1 （受け入れ教員：河東泰之教授）</td></tr>
+          <tr><th>2021年 4月</th><th>&mdash;</th><th>2023年 3月</th><td>&emsp; FoPM 卓越リサーチアシスタント</td></tr>
+        </table><br>
+        </p>
+      <h2>学歴</h2>
+        <p>
+        <table>
+          <tr><th>2025年9月</th><td>&emsp; 東京大学大学院数理科学研究科数理科学専攻 博士課程 修了 </td></tr>
+          <tr><th></th><td>&emsp;&emsp; 取得学位：博士（数理科学）
+          <tr><th></th><td>&emsp;&emsp; 博士論文：A tensor categorical aspect of quantum group actions</td></tr>
+          <tr><th>2023年4月</th><td>&emsp; 東京大学大学院数理科学研究科数理科学専攻 博士課程 入学 </td></tr>
+          <tr><th></th><td>&emsp;&emsp; 取得学位：修士（数理科学）</td></tr>
+          <tr><th></th><td>&emsp;&emsp; 修士論文：Equivariant quantum covering spaces over quantum homogeneous spaces</td></tr>
+          <tr><th>2023年3月</th><td>&emsp; 東京大学大学院数理科学研究科数理科学専攻 修士課程 修了 </td></tr>
+          <tr><th></th><td>&emsp;&emsp; 取得学位：学士（理学）</td></tr>
+          <tr><th>2021年4月</th><td>&emsp; 東京大学大学院数理科学研究科数理科学専攻 修士課程 入学 </td></tr>
+          <tr><th>2021年3月</th><td>&emsp; 東京大学理学部数学科 卒業 </td></tr>
+        </table><br>
+        </p>
+      <h2>受賞</h2>
+        <p>
+        <table>
+          <tr><th>2025年9月</th><td>&emsp; 東京大学大学院数理科学研究科 博士課程 総代</td></tr>
+          <tr><th>2023年3月</th><td>&emsp; 東京大学大学院数理科学研究科 修士課程 研究科長賞</td></tr>
+        </table><br>
+        </p>
+    </section>
+  </main>
+  <footer class="container"><p>&copy; <span id="yr"></span> Mao Hoshino.</p></footer>
+</body>
+</html>

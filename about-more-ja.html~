@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>自己紹介 — 星野 真生</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <div class="brand">
+        <h1>
+          <a href="index.html">Mao HOSHINO</a>
+          <span class="smallmuted">&emsp;<a href="index-ja.html">星野 真生</a></span>
+        </h1>
+      </div>
+    </div>
+  </header>
+  <main class="container main-narrow">
+    <section>
+      <h2>自己紹介</h2>
+      <p>　こんにちは，星野真生です．数学の研究をしています．もともとは解析学，特に作用素環論に興味があり，学部生の頃から博士号を取得するまで河東泰之先生に指導していただきました．今でも作用素環論を中心に据えた論文を書きたいと思っています．その一方で，最近は量子群やそれに関連する表現論にも興味があります．実際，現在の研究テーマは量子群の背後にあるPoisson幾何的構造を作用素環論的・表現論的な文脈に見出すことです．この話題の魅力は，歴史的・文脈的な自然さと，数学の問題としての非自明さが両立していることだと思います．また個々の具体例は手を動かして扱えるにも関わらず，一般論の確立には深い背景に立ち入る必要があるように感じられることも興味深い点です．数学的詳細は，いずれ紹介できればと思っています．<br></p>
+
+     <h2>趣味</h2>
+      <dl>
+        <dt>登山</dt><dd>月に一回程度，関東近郊の低山に出かけます．夏は日本アルプスや八ヶ岳まで出かけることもあります．</dd>
+        <dt>音楽</dt><dd>生活必需品です．色々聴きますが，オルタナティブを聴いている時間が最も長い気がします．ちなみにこの文章は柴田聡子の『Your Favorite Things』を聴きながら書いています．</dd>
+        <dt>写真</dt><dd>コンパクトデジタルカメラで撮っています．なんで撮るのか自分でもよくわかっていません．なんとなく，記録に残すことを重要だと思っている気がします．</dd>
+        <dt>麦酒</dt><dd>気づいたら飲むようになっていました．雑司ヶ谷に原因がある気がする．</dd>
+      </dl>
+    </section>
+  </main>
+  <div class="container hero-single">
+    <figure>
+      <img id="photo" alt="写真">
+      <figcaption id="cap"></figcaption>
+    </figure>
+  </div>
+  <footer class="container"><p>&copy; <span id="yr"></span> Mao Hoshino.</p></footer>
+  <script src="photos.js"></script>
+  <script>showRandomPhoto();</script>
+</body>
+</html>
