@@ -41,7 +41,7 @@ a:hover{ text-decoration-thickness: 2px; }
 .header__inner{ display:flex; align-items:center; justify-content: space-between; gap: 12px; padding: 10px 16px; }
 .brand{ display:flex; gap:12px; align-items:center; }
 .brand img{ width: 44px; height:44px; border-radius: 8px; display:block; object-fit: contain; }
-.brand h1{ font-size: clamp(1.00rem, 3.5vw, 1.30rem); margin: 0; letter-spacing:.2px; font-weight: 400; }
+.brand h1{ font-size: clamp(1.20rem, 3.5vw, 1.30rem); margin: 0; letter-spacing:.2px; font-weight: 400; }
 #scrollTop:hover { text-decoration: none; cursor: pointer; }
 .brand h1 a{ text-decoration: none; }
 .brand h1 a:hover{ text-decoration: underline; }
@@ -62,7 +62,7 @@ a:hover{ text-decoration-thickness: 2px; }
 .hero__name a{ text-decoration: none; }
 .hero__name a:hover{ text-decoration: underline; }
 .hero__affil{ margin:.15rem 0 .6rem; color: var(--fg); font-size: 1.0rem; }
-.hero__nav{font-size: clamp(1.5rem, 3.5vw, 1.5rem); display:flex; flex-wrap:wrap; gap:25px; justify-content:center; }
+.hero__nav{font-size: clamp(1.2rem, 3.5vw, 1.5rem); display:flex; flex-wrap:wrap; gap:25px; justify-content:center; }
 .hero__nav a{ text-decoration: none; }
 .hero__nav a:hover{ text-decoration: underline; }
 
@@ -181,3 +181,19 @@ dl dd {
   margin-bottom: 10pt;
 }
 
+/* details/summary のデフォルト三角を消す（ブラウザ差対策込み） */
+summary { list-style: none; }                 /* Firefox 等 */
+summary::-webkit-details-marker { display:none; }  /* Safari/Chrome(iOS含む) */
+summary::marker { content: ""; }              /* 一部ブラウザ */
+
+.education h3{
+  font-weight: 400;
+}
+
+.education p {
+  margin-left: 20pt;
+}
+
+.education li {
+  margin-bottom: 10pt;
+}
